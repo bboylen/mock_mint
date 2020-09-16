@@ -48,6 +48,7 @@ a {
 
 .products img {
   display: inline-block;
+  font-weight: 300;
 }
 
 .form-container {
@@ -61,6 +62,11 @@ a {
   margin: auto;
   line-height: 1.5;
 }
+
+.form-top {
+  margin-top: 30px;
+}
+
 .form-top h2{
   font-weight: 400;
   font-size: 24px;
@@ -73,19 +79,30 @@ a {
   font-size: 14px;
   line-height: 1.2;
   color: #4C4C4C;
+  margin: 2px;
 }
 
+.form-top a{
+  font-size: 12px;
+  margin: 2px;
+}
 .sign-up-form {
   text-align: left;
-  padding: 20px;
+  padding: 10px 20px 20px 20px;
 }
 
 fieldset {
   border: none;
+  color: #404040;
+  font-size: 14px;
+  line-height: 25px;
 }
 
+fieldset input {
+  margin-top: 6px;
+}
 input {
-  width: 320px;
+  width: 306px;
   height: 34px;
   min-width: 160px;
   padding: 0 6px 0 6px;
