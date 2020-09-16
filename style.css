@@ -1,0 +1,137 @@
+body {
+  background-color: #eceef1;
+}
+
+a {
+  color: #0077C5;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.header-container {
+  text-align: right;
+  line-height: 1.5;
+  font-size: 12px;
+  color: #505050;
+}
+
+.header-container p {
+  margin: 2px;
+}
+
+.header-text {
+  font-size: 12px;
+  display: inline-block;
+}
+
+.header-button {
+  font-size: 10px;
+  display: inline-block;
+}
+
+.content-container {
+  margin-top: 3%;
+}
+.heading {
+  clear: both;
+  text-align: center;
+}
+
+.products {
+  text-align: center;
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+
+.products img {
+  display: inline-block;
+}
+
+.form-container {
+  width: 380px;
+  font-size: 14px;
+  border: 1px solid #c7c7c7;
+  background-color: #fff;
+  border-radius: 2px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  line-height: 1.5;
+}
+.form-top h2{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.1;
+  color: #4C4C4C;
+}
+
+.form-top p{
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #4C4C4C;
+}
+
+.sign-up-form {
+  text-align: left;
+  padding: 20px;
+}
+
+fieldset {
+  border: none;
+}
+
+input {
+  width: 320px;
+  height: 34px;
+  min-width: 160px;
+  padding: 0 6px 0 6px;
+  border-radius: 3px;
+  font-size: 1.2em;
+  line-height: 1.3em;
+  border: 1px solid #c1c5c8;
+}
+
+.error-block {
+  min-height: 20px;
+  display: block;
+}
+
+#create-account-button {
+  background: #0077C5;
+  border: none;
+  height: 44px;
+  width: 320px;
+}
+.form-terms {
+  font-size: 12px;
+  font-style: italic;
+  color: #757575;
+  width: 85%;
+  text-align: center;
+  margin: auto;
+}
+
+.form-captcha {
+  background-color: #ECEEF1;
+  text-align: center;
+  font-size: 10px;
+  color: #8d9096;
+  padding: 16px;
+  margin-top: 30px;
+}
+
+.footer-container {
+  margin-top: 3%;
+  text-align: center;
+  color: #505050;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+.footer-container p {
+  margin: 4px;
+}
